@@ -40,5 +40,17 @@ Not: 5510 portu doluysa eski sunucuyu kapatın veya başka port kullanın.
 - `style.css`: görünüm
 - `app.js`: sayfalar ve işlemler
 
-## Geliştirme notu
-Depodaki sürüm temel kaynak kodlarla başlatılmıştır. Daha önce yerelde kullanılan görselli V2 tema henüz bu depoya aktarılmamıştır; tasarım değişiklikleri sonraki commit'lerde izlenecektir.
+## Tasarım ve görseller
+Görev Panosu, kullanıcının sağladığı GrandVista referansından esinlenerek AYMİRA kimliğiyle yeniden oluşturulmuştur. Ekran görüntüsü doğrudan arka plan olarak kullanılmaz; kartlar, etiketler ve butonlar canlı HTML/CSS öğeleridir. Grafikler gerçek görev sayılarını gösterir. Kaydedilmiş veriler `aymira-portal-pastel-v1` localStorage anahtarında korunur.
+
+Bağımsız arka plan fotoğrafları, Unsplash License kapsamında yayınlanan örnek fotoğraflardır. Otelin gerçek fotoğrafları değildir:
+- **Üst alan:** [Will Haddock, modern otel binası](https://unsplash.com/photos/modern-hotel-building-with-balconies-and-palm-trees-mO8uc43fF0U).
+- **Yan menü:** [Max Bvp, akşam otel dış mekânı](https://unsplash.com/photos/luxury-hotel-illuminated-at-dusk-with-palm-trees-VuzYM4CzEiA).
+
+Fotoğraflar CSS'deki internet adreslerinden yüklenir; bağlantı yokken arka plan gradyanı görünür. Canlı kullanıma geçmeden önce görselleri onaylı otel fotoğraflarıyla değiştirmek ve lisans koşullarını yeniden kontrol etmek uygundur.
+
+## Geri alma
+17 Kasım 2026 referans tasarımı değişikliklerinden önceki kod `backup-before-grandvista-redesign-2026-11-17` dalında saklanmıştır.
+
+## Kapsam ve doğrulama
+Statik HTML/CSS/JS demo; henüz çok kullanıcılı, sunucu tarafı yetkilendirmeli veya gerçek misafir verileri için güvenli bir üretim sistemi değildir. Temel JavaScript render ve veri modelinin kontrolü yapılmıştır; farklı tarayıcı ve ekran boyutlarında görsel test ayrıca yapılmalıdır.
