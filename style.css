@@ -19,3 +19,7 @@ body{background:radial-gradient(ellipse at 95% 0%,#f2e4dc,transparent 28%),linea
 .sidebar .brand{display:flex;align-items:center;justify-content:center;padding:5px 8px 27px;margin:0;min-height:98px;line-height:normal}
 .sidebar .brand-logo{display:block;width:140px;max-width:100%;height:auto;aspect-ratio:2/1;object-fit:contain;border:0;box-shadow:none;flex:none}
 @media(max-width:700px){.sidebar .brand{padding:5px 8px 12px;min-height:0}.sidebar .brand-logo{width:118px}}
+
+/* Logo artwork has a navy rectangle: blend away the rectangle on the sidebar. */
+.sidebar .brand{isolation:isolate;background:transparent}
+.sidebar .brand-logo{mix-blend-mode:screen;filter:grayscale(1) contrast(2.5) brightness(1.1);width:136px;aspect-ratio:auto}
