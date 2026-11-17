@@ -21,13 +21,13 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 
 /* Reference-matched architecture and controls. Background imagery is original AI-generated artwork. */
-.main::before{content:"";position:absolute;z-index:0;right:0;top:0;width:min(64%,900px);height:388px;background-image:linear-gradient(to bottom,transparent 0%,transparent 60%,#e9edf8 100%),linear-gradient(to right,#e9edf8 0%,#e9edf8b0 25%,transparent 53%),url("assets/images/aymira-room.webp");background-size:cover;background-position:center 65%;opacity:1;pointer-events:none;mask-image:linear-gradient(to bottom,black 0%,black 72%,transparent 100%)}
+.main::before{content:"";position:absolute;z-index:0;right:0;top:0;width:min(64%,900px);height:388px;background-image:linear-gradient(to bottom,transparent 0%,transparent 65%,#e9edf8 100%),linear-gradient(to right,#e9edf8 0%,#e9edf8a0 20%,transparent 42%),url("assets/images/aymira-room.webp?v=20261117-hq1");background-size:cover;background-position:center 65%;opacity:1;pointer-events:none;mask-image:linear-gradient(to bottom,black 0%,black 76%,transparent 100%)}
 .main::after{content:"";position:absolute;z-index:0;right:-140px;top:-170px;width:810px;height:570px;border-radius:50%;border:70px solid #ffffff40;transform:rotate(-25deg);pointer-events:none}
 .main>header,.main>.content{position:relative;z-index:2}
 .page-subtitle{font-size:18px;margin:9px 0 0;color:#213c62;line-height:1.35}
 .header-create{background:#142640;color:white;border:0;border-radius:36px;padding:15px 27px;min-height:51px;font-size:15px;white-space:nowrap;box-shadow:0 7px 15px #111f3529}
 .header-create:hover{background:#233e63}
-.sidebar-photo{flex:1;min-height:105px;position:relative;margin:6px -13px -1px;z-index:1;background:linear-gradient(to bottom,#1b304f 0%,#172d4a25 30%,#0e21351b 75%,#0e21355c 100%),url("assets/images/aymira-hamam.webp");background-size:cover;background-position:50% 33%;mask-image:linear-gradient(to bottom,transparent 0%,black 23%,black 100%)}
+.sidebar-photo{flex:1;min-height:105px;position:relative;margin:6px -13px -1px;z-index:1;background:linear-gradient(to bottom,#1b304fa8 0%,#172d4a16 28%,#0e213510 75%,#0e213538 100%),url("assets/images/aymira-hamam.webp?v=20261117-hq1");background-size:cover;background-position:50% 47%;mask-image:linear-gradient(to bottom,transparent 0%,black 16%,black 100%)}
 .sidebar-photo::after{content:none}
 .nav-extra{margin-top:4px;color:#d5deec;font-size:12px}
 .nav-extra summary{list-style:none;cursor:pointer;padding:9px 17px;color:#ced8e6}
