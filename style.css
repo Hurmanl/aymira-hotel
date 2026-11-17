@@ -28,3 +28,43 @@ body{background:radial-gradient(ellipse at 95% 0%,#f2e4dc,transparent 28%),linea
    No filters or blend modes: keep the original white lettering clean. */
 .sidebar{background:#193157!important}
 .sidebar .brand-logo{filter:none!important;mix-blend-mode:normal!important;opacity:1!important;width:136px}
+
+/* AYMIRA | airy luxury palette — November 2026 */
+:root{--bg:#f8f7f3;--panel:#ffffff;--text:#243d58;--muted:#71849a;--line:#e5e9ec;--purple:#658fa4;--shadow:0 12px 28px rgba(39,65,82,.075)}
+body{background:#f8f7f3;color:var(--text)}
+.main{background:linear-gradient(145deg,#f9faf8 0%,#f6f8fa 58%,#fcf8f5 100%)}
+.sidebar{background:#243d58!important;box-shadow:5px 0 22px rgba(30,54,75,.08)}
+.sidebar .brand-logo{filter:none!important;mix-blend-mode:normal!important}
+.sidebar .nav-link{color:#e6eef2}
+.sidebar .nav-link:hover{background:rgba(255,255,255,.11);color:#fff}
+.sidebar .nav-link.active{background:#e4edf0;color:#243d58;box-shadow:inset 4px 0 #d6b78c}
+.sidebar .nav-link.active .symbol{color:#243d58}
+.sidebar .side-label{color:#bdcdd7}
+.sidebar .sidebar-bottom{background:#1d334b;color:#fff;border-color:rgba(255,255,255,.14)}
+.topbar{background:transparent}
+.welcome h1,.toolbar h2{color:#243d58}
+.welcome small{color:#8295a7}
+.search-wrap{background:#fff;border:1px solid #e9ecee;box-shadow:0 7px 20px rgba(38,66,85,.045)}
+.content{color:#243d58}
+.stat{border:1px solid #fff;box-shadow:0 10px 24px rgba(40,67,85,.06)}
+.stat:nth-child(1){background:linear-gradient(135deg,#dcecf3,#eef5f8)}
+.stat:nth-child(2){background:linear-gradient(135deg,#e8e7f4,#f3f1fa)}
+.stat:nth-child(3){background:linear-gradient(135deg,#dfede5,#eff7f1)}
+.stat:nth-child(4){background:linear-gradient(135deg,#f7e7dc,#fff3eb)}
+.lane{background:#fff;border:1px solid #edf0f0;box-shadow:0 9px 26px rgba(39,65,82,.045)}
+.lane:nth-child(1) .lane-head{background:#dcecf3;color:#284a63}
+.lane:nth-child(2) .lane-head{background:#e5e9f5;color:#384c6a}
+.lane:nth-child(3) .lane-head{background:#f7e7dc;color:#80513f}
+.lane:nth-child(4) .lane-head{background:#dfede5;color:#2f6556}
+.task-card{box-shadow:0 7px 17px rgba(40,67,85,.05)}
+.card-blue{background:#e4eef8}.card-purple{background:#eee9f7}.card-peach{background:#faeae0}.card-pink{background:#f9e7ed}.card-mint{background:#e1f1e9}.card-yellow{background:#faf0d9}
+.task-card h3{color:#243d58}
+.btn{background:#294961;box-shadow:0 7px 17px rgba(30,61,80,.14)}
+.btn:hover{background:#365d76}
+.panel,.table-wrap{border-color:#e9edf0;box-shadow:0 9px 25px rgba(40,67,85,.045)}
+.room{background:#e3eef7}.room.dirty{background:#f9e5e6}.room.cleaning{background:#faf0de}.room.occupied{background:#ece8f5}.room.inspected{background:#e1f1e8}
+.notice{background:#edf3f4;border-color:#e5ecee}
+.filters button.active{background:#294961}
+.dark .main{background:#192e49}
+.dark .sidebar{background:#193157!important}
+@media(max-width:700px){.sidebar .nav-link.active{color:#243d58}}
