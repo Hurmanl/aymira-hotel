@@ -23,3 +23,8 @@ body{background:radial-gradient(ellipse at 95% 0%,#f2e4dc,transparent 28%),linea
 /* Logo artwork has a navy rectangle: blend away the rectangle on the sidebar. */
 .sidebar .brand{isolation:isolate;background:transparent}
 .sidebar .brand-logo{mix-blend-mode:screen;filter:grayscale(1) contrast(2.5) brightness(1.1);width:136px;aspect-ratio:auto}
+
+/* Final logo fix: use the exact navy of the supplied logo (#193157) across the sidebar.
+   No filters or blend modes: keep the original white lettering clean. */
+.sidebar{background:#193157!important}
+.sidebar .brand-logo{filter:none!important;mix-blend-mode:normal!important;opacity:1!important;width:136px}
