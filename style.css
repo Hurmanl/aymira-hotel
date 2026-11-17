@@ -61,3 +61,9 @@
 .board-mode .top-avatar,.board-mode .top-actions>.icon-btn{display:none}
 .page-subtitle:empty{display:none}
 @media(max-width:700px){.nav-svg{width:17px;height:17px}.lane-symbol svg{width:21px;height:21px}.sidebar .nav-extra{display:block}.sidebar .nav-extra:not([open]){display:block}.sidebar .nav-extra>summary{white-space:nowrap}}
+
+/* Show the header task action only on the Kanban dashboard; other pages retain their own contextual action buttons. */
+.header-create{display:none}
+.board-mode .header-create{display:inline-flex;align-items:center;justify-content:center}
+.board-mode .date-label{display:none}
+body:not(.board-mode) .date-label{display:inline}
